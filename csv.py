@@ -1,18 +1,5 @@
 # 从人脸图像文件中提取人脸特征存入 CSV
 
-# Author:   coneypo
-# Blog:     http://www.cnblogs.com/AdaminXie
-# GitHub:   https://github.com/coneypo/Dlib_face_recognition_from_camera
-# Mail:     coneypo@foxmail.com
-
-# Created at 2018-05-11
-# Updated at 2018-10-29
-
-# 增加录入多张人脸到 CSV 的功能
-
-# return_128d_features()          获取某张图像的 128D 特征
-# write_into_csv()                获取某个路径下所有图像的特征，并写入 CSV
-# compute_the_mean()              从 CSV　中读取　128D 特征，并计算特征均值
 
 import cv2
 import os
